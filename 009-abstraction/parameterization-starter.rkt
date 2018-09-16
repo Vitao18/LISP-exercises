@@ -36,6 +36,8 @@
 (define (contains-mcgill? los) (contains? "McGill" los))
 
 
+;; String (listof String) -> Boolean
+;; produce true if los includes s
 (define (contains? s los)
   (cond [(empty? los) false]
         [else
@@ -68,6 +70,9 @@
 
 (define (square-roots lon) (my-map lon sqrt))
 
+
+;; (a -> b) (listof a) -> (listof b)
+;; given fn and (list l0 l1 ...) produces (list (fn l0) (fn l1)...) 
 (define (my-map lon fn)
   (cond [(empty? lon) empty]
         [else
@@ -100,6 +105,9 @@
 
 (define (negative-only lon) (my-filter lon negative?))
 
+
+;; (X -> Boolean) (listOf X) -> (listOf X)
+;; filter list to contain only those elements for which p produces true
 (define (my-filter lon p)
   (cond [(empty? lon) empty]
         [else
