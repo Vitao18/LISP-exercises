@@ -2099,11 +2099,11 @@
  #";; about the language level of this file in a form that our tools ca"
  #"n easily process."
 ) 0 0 4 29 1 #"\n"
-0 0 4 3 185
+0 0 4 3 188
 (
- #"#reader(lib \"htdp-intermediate-reader.ss\" \"lang\")((modname termi"
- #"nation) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t"
- #" constructor repeating-decimal #f #t none #f () #f)))"
+ #"#reader(lib \"htdp-intermediate-reader.ss\" \"lang\")((modname |#ter"
+ #"mination|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #"
+ #"(#t constructor repeating-decimal #f #t none #f () #f)))"
 ) 0 0 4 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 17 3 26 #";; termination-starter.rkt"
@@ -5235,7 +5235,7 @@
 ) 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 9         427 21           0 0           0 70 0 24 29 1 #"\n"
+0 9         433 21           0 0           0 71 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 14 3 8 #"PROBLEM:"
 0 0 24 29 1 #"\n"
@@ -5261,6 +5261,7 @@
 0 0 24 3 1 #" "
 0 0 14 3 5 #"case:"
 0 0 24 29 1 #"\n"
+0 0 21 3 1 #"0"
 0 0 24 29 1 #"\n"
 0 0 14 3 9 #"Reduction"
 0 0 24 3 1 #" "
